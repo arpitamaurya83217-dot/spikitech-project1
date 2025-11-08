@@ -1,0 +1,96 @@
+<!-- Tip: this file must be saved with the .html extension. If VS Code shows "language not supported", set the editor language mode to HTML (status bar) and/or install the Prettier extension. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpita Maurya — Front-End Developer | Resume</title>
+    <meta name="description"
+        content="Arpita Maurya — Front-End Developer. Skills: HTML, CSS, GitHub. Seeking internship or entry-level web development roles.">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>ARPITA MAURYA</h1>
+        <hr>
+        <p>Front-End Developer</p>
+        <hr>
+    </header>
+
+    <main>
+        <article id="mainLeft">
+            <section>
+                <h2>CONTACT</h2>
+                <p><i class="fa fa-envelope"></i>
+                    <a href="mailto:arpitamaurya83217@gmail.com">arpitamaurya83217@gmail.com</a>
+                </p>
+                <p><i class="fab fa-github"></i>
+                    <a href="https://github.com/gh-username"
+                        target="_blank">https://github.com/arpitamaurya83217-dot</a>
+                </p>
+                <p><i class="fab fa-linkedin"></i>
+                    <a href="https://linkedin.com/in/linkedin-username"
+                        target="_blank">https://www.linkedin.com/in/arpita-maurya-174652276</a>
+                </p>
+            </section>
+
+            <section>
+                <h2>SKILLS</h2>
+                <p>HTML, CSS, GitHub, VS Code...</p>
+            </section>
+
+            <section>
+                <h2>EDUCATION</h2>
+                <h3>ELECTRONICS ENGINEERING</h3>
+                <p>RAJKIYA ENGINEERING COLLEGE SONBHADRA</p>
+                <p>2022 - 2026</p>
+            </section>
+        </article>
+
+        <article id="mainRight">
+            <section>
+                <h2>ABOUT</h2>
+                <p>I am an Electronics Engineer and Web Developer with a solid grounding in programming languages, web
+                    development
+                    frameworks, and embedded systems. I have practical experience through internships and projects,
+                    particularly in full-stack
+                    development and embedded systems. My motivation lies in continuous learning and applying my skills
+                    to contribute to
+                    organizational growth.</p>
+            </section>
+
+            <section>
+                <h2>WORK EXPERIENCE</h2>
+                <h3>Intern at</h3>
+                <p>Northern Railway | 26june 2025-26july 2025</p>
+                <p>Involved in projects related to types of relays used in MEMU, along with their overhauling and testing</p>
+                <h3>Intern at</h3>
+                <p>Emertxe Information and Technology</p>
+                <p>Embedded Systems Internship</p>
+                
+               
+            </section>
+        </article>
+    </main>
+
+    <!-- added: quick debug script to confirm extension/language in the browser console -->
+    <script>
+        (function () {
+            const path = window.location.pathname || '';
+            const matches = path.match(/\.([^.\/?#]+)(?:[?#]|$)/);
+            const ext = matches ? matches[1].toLowerCase() : '';
+            console.log('Detected file extension:', ext || '(none)');
+            if (ext !== 'html' && ext !== 'htm') {
+                console.warn('File does not appear to be .html. Ensure filename ends with .html and VS Code language mode is set to HTML.');
+            } else {
+                console.log('File extension OK. If a formatter reports "language not supported", install "Prettier - Code formatter" and set it as the workspace default formatter.');
+            }
+        })();
+    </script>
+
+</body>
+
+</html>
